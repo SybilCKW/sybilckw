@@ -38,7 +38,7 @@ h1, h2 {
 }
 
 /*Originally used rgba(174, 205, 205, 0.85)*/
-.profile {
+.profile, .groups, .events {
 	background: rgba(255, 255, 255, 0.85);
   margin: 20px; padding: 20px;
 	border-right: 4px solid #253333;
@@ -89,17 +89,6 @@ h1, h2 {
   border-radius: 40px;
   /*display: block;
 	margin: 0 auto; centering by equalising right/left margins*/
-}
-
-.events{
-	background: rgba(255, 255, 255, 0.85);
-	margin: 20px; padding: 30px;
-	border-right: 4px solid #253333;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom: 4px solid #253333;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
 }
 
 .events h2 {
