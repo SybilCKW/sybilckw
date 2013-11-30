@@ -7,6 +7,13 @@ html {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*http://stackoverflow.com/questions/18369036/bootstrap-3-glyphicons-not-working*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('Content/fonts/glyphicons-halflings-regular.eot');
+  src: url('Content/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded- opentype'), url('Content/fonts/glyphicons-halflings-regular.woff') format('woff'), url('Content/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('Content/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
 body {
   background:none; /*Bootstrap original bkgd is white*/
 }
