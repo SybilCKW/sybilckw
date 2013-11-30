@@ -14,19 +14,23 @@ body {
 div, h3 {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
 h1, h2 {
 	font-family: 'Loved by the King', sans-serif;
 	text-align: center;
+	font-weight: bold;
+}
+h1 {
+	font-size: 40px;
 }
 h2 {
-	text-align: center;
-	font-size: 20px;
+	font-size: 22px;
 }
 h3 {
-	text-align: center;
 	font-size: 16px;
 	font-weight: bold;
+}
+small {
+	font-size: 11px;
 }
 
 .center {
