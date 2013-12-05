@@ -58,9 +58,12 @@ small {
 	display: inline-block;
 }
 
-/*Originally used rgba(174, 205, 205, 0.85)*/
+/*Originally used background: rgba(174, 205, 205, 0.85) rgba(255, 255, 255, 0.85);*/
 .profile, .groups, .events {
-	background: rgba(255, 255, 255, 0.85);
+	background-color: white;
+		filter: alpha(opacity=85); /* IE */
+    opacity: 0.85;           /* fx, safari, opera, chrome */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=85)"; /*IE8*/
   margin: 20px; padding: 20px;
 	border-right: 4px solid #253333;
 	border-top-left-radius: 20px;
