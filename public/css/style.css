@@ -1,5 +1,9 @@
 html { 
   background: url('/images/CHSQ-130511.jpg') no-repeat center center fixed; /*url is relative to style.css, so need / at start of URL*/
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,7 +77,7 @@ small {
 	border-bottom: 4px solid #253333;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	min-width: 295px;
+	min-width: 100px;
 	}
 .profile, .groups {
 	text-align: center;
