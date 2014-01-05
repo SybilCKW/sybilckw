@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background:none; /*Bootstrap original bkgd is white*/
+  background-color: #35132e; /*Bootstrap original bkgd is white*/
 }
 
 div, h3 {
