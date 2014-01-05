@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ruby (1.9.3)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
