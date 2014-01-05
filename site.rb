@@ -7,10 +7,6 @@ get '/events' do #page 6: create other URLs
 	erb :events
 end
 
-get '/italian' do #page 6: create other URLs
-	"ciao" #print string
-end
-
 get '/spanish' do
 	"Hola!"
 end

@@ -1,5 +1,6 @@
 html { 
   background: url('/images/CHSQ-130511.jpg') no-repeat center center fixed; /*url is relative to style.css, so need / at start of URL*/
+  background-color: #35132e;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -19,7 +20,7 @@ html {
 }
 
 body {
-  background-color: #35132e; /*Bootstrap original bkgd is white*/
+  background: none; /*Bootstrap original bkgd is white*/
 }
 
 div, h3 {
